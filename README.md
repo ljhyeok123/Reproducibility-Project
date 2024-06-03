@@ -90,7 +90,7 @@ Due to GPU performance and memory constraints, only 5-bit experiments were repro
 ## How to run it 
 ```
 ### code download
-git clone https://github.com/SangbeomJeong/LeNet5_MLP_project.git    dddddddddd 수정해야함 
+git clone https://github.com/SangbeomJeong/Reproducibility-Project.git
 
 ### dataset prepare
 please prepare the ImageNet validation and training dataset
