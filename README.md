@@ -20,7 +20,7 @@ Additive powers-of-two quantization: An efficient non-uniform discretization for
 ## How to run it 
 ```
 ### code download
-git clone https://github.com/SangbeomJeong/LeNet5_MLP_project.git
+git clone https://github.com/SangbeomJeong/Reproducibility-Project.git
 
 ### run 
 python main.py --arch res20 --bit 32 -id 0,1 --wd 5e-4
@@ -80,7 +80,7 @@ batch size : 128
 |         2bit           |    92.75                 |          1.19           | 
 
 
-Because we cannot match the completely identical environment (ex: GPU, pytorch version, CUDA version) as the paper, we want to judge the performance using the accuracy drop index in the experimental results. In the actual paper, results exceeded the baseline in all other conditions except for 2bit. On the other hand, our reproducibility results showed results that were lower than baseline in all conditions. Initially, quantization experiments were conducted using pretrained weights provided by the authors of the paper, but performance was lower in all conditions. So, weㄲ conducted an experiment by relearning the baseline from the beginning and securing pretrained weights.**The results of the above reproducibility table (Ours) are the results of quantization experiments obtained directly from the baseline.**
+Because we cannot match the completely identical environment (ex: GPU, pytorch version, CUDA version) as the paper, we want to judge the performance using the accuracy drop index in the experimental results. In the actual paper, results exceeded the baseline in all other conditions except for 2bit. On the other hand, our reproducibility results showed results that were lower than baseline in all conditions. Initially, quantization experiments were conducted using pretrained weights provided by the authors of the paper, but performance was lower in all conditions. So, weㄲ conducted an experiment by relearning the baseline from the beginning and securing pretrained weights. **The results of the above reproducibility table (Ours) are the results of quantization experiments obtained directly from the baseline.**
 
 
 # APoT Quantization Method Reproducibility for ImageNet(논문 결과 구현하는 부분)
