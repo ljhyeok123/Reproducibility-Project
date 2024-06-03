@@ -3,6 +3,11 @@
 # APoT Quantization Paper Reproducibility
 
 This project reproduces APoT Quantization and uses pytorch to show results on CIFAR/ImageNet for various ResNet models. The goal of the project is to make the accuracy drop due to quantization as similar as possible to the paper results.
+https://github.com/yhhhli/APoT_Quantization
+
+
+https://openreview.net/pdf?id=BkgXT24tDS
+
 
 # APoT Quantization
 Additive powers-of-two quantization: An efficient non-uniform discretization for neural networks (APoT) is a paper accepted at ICLR 2020. The paper has 285 citations as of June 3, 2024.
