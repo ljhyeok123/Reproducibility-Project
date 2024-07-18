@@ -164,16 +164,10 @@ In an attempt to further improve the previously reproduced performance, we will 
 
 |   Architecture         |      Accuracy(%)         |      Accuracy drop(%)  | 
 |------------------------|--------------------------|------------------------|
-|     Basline(FP32)      |                    |             -          | 
-|         4bit           |                   |                | 
-|         3bit           |                   |                | 
-|         2bit           |                |                | 
-
-
-# Conclusion
-
-추가해야함 
-
+|     Basline(FP32)      |    92.94                  |             -          | 
+|         4bit           |    92.6                  |         0.34          | 
+|         3bit           |    92.17                 |         0.77           | 
+|         2bit           |    90.67                 |          2.27          | 
 
 
 
