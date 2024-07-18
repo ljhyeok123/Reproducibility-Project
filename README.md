@@ -14,7 +14,7 @@ Additive powers-of-two quantization: An efficient non-uniform discretization for
 - `main.py`: Main script to execute training and testing of the models.
 - `README.md`: This file, explaining the project and how to run it.
 
-# APoT Quantization Method Reproducibility for CIFAR 10(논문 결과 구현하는 부분)
+# APoT Quantization Method Reproducibility for CIFAR 10
 
 ## How to run it 
 ```
@@ -82,7 +82,7 @@ batch size : 128
 Because we cannot match the completely identical environment (ex: GPU, pytorch version, CUDA version) as the paper, we want to judge the performance using the accuracy drop index in the experimental results. In the actual paper, results exceeded the baseline in all other conditions except for 2bit. On the other hand, our reproducibility results showed results that were lower than baseline in all conditions. Initially, quantization experiments were conducted using pretrained weights provided by the authors of the paper, but performance was lower in all conditions. So, weㄲ conducted an experiment by relearning the baseline from the beginning and securing pretrained weights. **The results of the above reproducibility table (Ours) are the results of quantization experiments obtained directly from the baseline.**
 
 
-# APoT Quantization Method Reproducibility for ImageNet(논문 결과 구현하는 부분)
+# APoT Quantization Method Reproducibility for ImageNet
 
 Due to GPU performance and memory constraints, only 5-bit experiments were reproduced for ResNet18.
 
