@@ -7,7 +7,6 @@ This project reproduces APoT Quantization and uses pytorch to show results on CI
 # APoT Quantization
 Additive powers-of-two quantization: An efficient non-uniform discretization for neural networks (APoT) is a paper accepted at ICLR 2020. The paper has 285 citations as of June 3, 2024.
 
-**APoT Quantization논문에서의 양자화 기법 간략하게 추가하기**
 
 # Code Configuration
 - `resnet.py`: This code declares the structure of resnet for imageNet/CIFAR and exists in the CIFAR/ImageNet folder, respectively. The reason for this is that the structures of resnet used in imageNet and CIFAR are different. For example, in imageNet, the kernel size of the **first convolution is 7**, while in cifar, the kernel size of the **first convolution is 3**.
